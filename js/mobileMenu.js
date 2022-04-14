@@ -1,7 +1,7 @@
 const body = document.querySelector('body');
 const openMenu = document.querySelector('.fa-bars');
 const mobileMenu = document.querySelector('#mobile-nav');
-const closeMenu = document.querySelector('.close-mobile-nav');
+const closeMenu = document.querySelectorAll('.close-mobile-nav');
 
 const openNavMenu = () => {
   body.classList.add('overflow-hidden');
@@ -17,4 +17,6 @@ const closeNavMenu = () => {
 
 openMenu.addEventListener('click', openNavMenu);
 
-closeMenu.addEventListener('click', closeNavMenu);
+closeMenu.forEach((link) => {
+  link.addEventListener('click', closeNavMenu);
+});
