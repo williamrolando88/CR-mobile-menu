@@ -424,11 +424,8 @@ textarea {
   height: 100vh;
   z-index: 2;
   background-color: #3c3a39;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 6px;
 }
+
 .menu-close {
   padding: 17px;
   align-self: flex-end;
@@ -446,6 +443,21 @@ textarea {
 
 .mobile-nav-link {
   color: #fff5e1;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.hidden {
+  display: none;
 }
 
 @media all and (min-width: 720px) {
