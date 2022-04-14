@@ -1,0 +1,27 @@
+{
+  "name": "curriculum-cr-training-mobile-menu-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx hint . && npx stylelint \"**/*.{css,scss}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamrolando88/CR-mobile-menu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williamrolando88/CR-mobile-menu/issues"
+  },
+  "homepage": "https://github.com/williamrolando88/CR-mobile-menu#readme",
+  "devDependencies": {
+    "hint": "^6.1.11",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
